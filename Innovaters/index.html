@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flexbox">
+        <div class="chat-box">
+            <div class="chat-box-header">
+                <h3>Innovators AI Chat Bot</h3>
+            </div>
+            <div id="chat_box_body" class="chat-box-body">
+                <div id="chat_messages"></div>
+            </div>
+            <div id="typing" class="typing-indicator">
+                <div>
+                    <span></span><span></span><span></span>
+                    <span class="n">Bot</span> is typing...
+                </div>
+            </div>
+            <div class="chat-box-footer">
+                <textarea id="chat_input" placeholder="Type your message..."></textarea>
+                <button id="send">
+                    <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                        <path fill="#006ae3" d="M2,21L23,12L2,3V10L17,12L2,14V21Z" />
+                    </svg>
+                </button>
+                <a href="view-history.html"><button id="view_history" class="view-btn">View History</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
